@@ -32,7 +32,7 @@ svg {
   transition: all .5s linear;
 }
 
-.is-clicked {
+.btn:active {
   fill: #f60;
 }
 

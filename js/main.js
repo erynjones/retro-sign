@@ -4,12 +4,8 @@ var $btn = $('.btn');
 var $engage = $('.engage');
 
 $btn.on('click', function () {
-  $svg.addClass('is-clicked');
-  $(this).toggleClass('is-clicked');
-});
-
-$svg.on('click', function () {
   $lines.addClass('line2');
   $lines.removeClass('lines');
   $engage.addClass('engaged');
+  $(this).toggleClass('btn:active');
 });

@@ -29,11 +29,19 @@ svg {
 
 .btn {
   cursor: pointer;
-  transition: all .5s linear;
+}
+
+.button path:last-child {
+  fill: #f60;
+}
+
+.btn path:last-child:active {
+  transform: scale(1, 1);
+  fill: #f60;
 }
 
 .btn:active {
-  fill: #f60;
+  transform: scale(1, 1);
 }
 
 .lines path {
